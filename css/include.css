@@ -1,0 +1,103 @@
+@charset:"utf-8";
+
+/*헤더영역*/
+
+#header{
+    margin:0 auto;
+    width:1200px;
+    position:relative;
+}
+
+.headerBox{
+    padding-top:50px;
+    position:absolute;
+    width:100%;
+}
+.headerBox a{
+    display:block;
+    float:left;
+}
+.headerBox img{
+}
+
+
+.gnb{
+    float:right;
+    position:relative;
+
+}
+.gnb li{
+    float:left;
+    margin:20px auto;
+    margin-left:80px;
+}
+.gnb li a{
+        color:#fff;
+}
+
+.lnb{
+}
+.lnb li{
+}
+.lnb li a{}
+
+.gnb li:hover .lnb {
+}
+
+/*푸터*/
+
+#footer{
+    background:#1c1511;
+    color:#fff;
+    padding:60px 0;
+}
+
+.fBox{}
+.fBox li{
+    float:left;
+}
+
+.fTxt{
+    margin-right:50px;
+}
+.fTxt h4{
+    margin-bottom:20px;
+    font-size:14px;
+}
+.ftxtLast{
+    margin-top:50px;
+}
+.fInfo{
+    font-size:14px;
+}
+.fInfo h4{
+    margin-bottom: 20px;
+}
+.fInfo span{font-size:12px;}
+
+.finfoLast{
+    margin-top:17px;
+    font-size:12px;
+}
+.fBox .fContact{
+    float:right;
+    margin-left:300px;
+}
+.fContact h4{
+    font-size:14px;
+    margin-bottom: 20px;
+}
+.fContact p{
+    color:#ffba26;
+}
+
+.fContact a{
+    color:#ffba26;
+}
+.fContact img{
+    margin-right:5px;
+    vertical-align:bottom;
+}
+.fMap{
+    margin-top:20px;
+}

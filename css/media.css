@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+/*웹뷰*/
+
+/*모바일뷰*/
+@media screen and (max-width:768px){
+/*리셋*/    
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+/*보임처리*/
+    
+/*안보임처리*/    
+    .gnb,.headerBox img{display:none;}
+    
+    
+/*헤더*/
+    
+    .headerBox{}
+    
+/*메인슬라이더*/
+    .mainSlider{
+        margin:0;
+        max-height:100%;
+        max-width: 100%;
+    }
+    
+    .mainTxt img{}
+    .mainTxt h2{
+        font-size:40px;
+    }
+    .mainTxt p{
+        font-size:16px;
+    }
+    
+/*콘텐츠01*/
+    
+    .con01Title{
+        text-align:center;
+        width:auto;
+    }
+    .con01Title p{
+        font-size:14px;
+    }
+    .con01Title h3{
+        font-size:20px;
+        margin:0;
+        padding:0;
+    }
+    
+    .con01Title h3 span{
+        display:block;
+    }
+    
+    .con01Title h3 img{
+        width:auto;
+        margin:10px auto;
+        display:block;
+        
+    }
+    
+    .con01mTxt{
+        margin:5px;
+    }
+    .con01mTxt img{
+        width:auto;
+    }
+
+    .con01Txt{
+        width:auto;
+        margin:0 auto;
+    }
+    .con01Txt img{
+        margin:0;
+        height:5%;
+    }
+    .con01Txt p{
+        font-size:16px;
+    }
+    
+
+/*콘텐츠02*/
+    /*최상의 원두*/
+    .con02Bg{
+        background-size:50%;
+        background-position:top right;
+        height:100%;
+        margin-bottom:20%;
+    }
+    
+    .con02Menu01{
+    }
+    .Menu02Txt{
+        padding:0;
+    }
+    .Menu02Txt p{
+        width:24%;
+    }
+    .Menu02Txt h2{
+        font-size:20px;
+        margin-bottom:10px;
+    }
+    .Menu02Txt span{
+        display:block;
+        width:70%;
+        font-size:16px;
+        margin-top:8%;
+    }
+    
+    .Menu02Txt{
+        margin:0 10%;
+    }
+    
+    
+    /*최적의 로스팅*/
+    .con02Bg2{
+        background-size:50%;
+        background-position:top left;
+        height:100%;
+         margin-bottom:20%;
+    }
+    
+    .con02Menu02{
+    }
+    .Menu02Txt02{
+        padding:0;
+    }
+    .Menu02Txt02 p{
+        margin:0;
+        padding:0;
+    }
+    .Menu02Txt02 h2{
+        font-size:20px;
+    }
+    .Menu02Txt02 span{
+        display:block;
+        width:30%;
+        font-size:16px;
+        margin-top:8%;
+    }
+    
+    .Menu02Txt02{
+        margin:0 10%;
+    }
+    
+    /*에스프레소 추출*/
+      .con02Bg3{
+        background-size:50%;
+        background-position:top right;
+        margin-bottom:20%;
+          height:60%;
+    }
+    
+    .con02Menu03{
+    }
+    .Menu02Txt03{
+        padding:0;
+    }
+    .Menu02Txt03 p{
+        width:35%;
+    }
+    .Menu02Txt03 h2{
+        font-size:20px;
+        margin-bottom:10px;
+    }
+    .Menu02Txt03 span{
+        display:block;
+        width:70%;
+        font-size:16px;
+        margin-top:8%;
+    }
+    
+    .Menu02Txt03{
+        margin:0 10%;
+    }
+    
+    .con03{
+        margin:0 10%;
+        font-size:16px;
+    }
+    .con03 h2{
+        font-size:20px;
+        background-size:30%;
+        margin-bottom:0;
+    }
+    .con03 p{}
+    
+    .con03Logo{}
+    .con03Logo img{
+        width:40%;
+    }

@@ -1,0 +1,254 @@
+@charset:"utf-8";
+
+.mainSlider{
+    background:url(../images/mainslideImg.jpg) no-repeat center center;
+    height:920px;
+}
+
+.mainSliderOpecity{
+    height:920px;
+    background:rgba(0,0,0,0.2);
+}
+
+.mainTxt{
+    color:#fff;
+    text-align:center;
+    padding-top:300px;
+}
+.mainTxt img{
+    width:70px;
+    
+}
+.mainTxt h2{
+    font-size:120px;
+}
+.mainTxt p{}
+
+.con01{
+    text-align:center;
+    margin:100px 0;
+}
+
+.con01Title{}
+.con01Title span{
+    letter-spacing:5px;
+
+}
+.con01Title p{
+    font-size:12px;
+    letter-spacing:5px;
+    margin-bottom: 10px;
+}
+.con01Title h3{
+    font-size:30px;
+    padding-left:20px;
+}
+.con01Title h3 img{
+    width:25px;
+    margin:0 30px;
+}
+
+.con01mTxt{
+    margin:20px 20px;
+    font-size:20px;
+    font-weight:bold;
+}
+.con01mTxt p{
+    margin:20px 0;
+}
+.con01mTxt img{
+    padding:5px 5px;
+}
+
+
+.con01Txt img{
+    margin-bottom:20px;
+}
+
+.con01Txt p{
+    line-height:30px;
+}
+
+/*콘텐츠02*/
+
+.con02Bg{
+    height:430px;
+    background:url(../images/con02Img01.png) no-repeat center right;
+    background-size:50%;
+}
+
+
+.con02Menu01{}
+
+.con02Menu01 p{
+    width:115px;
+    border-bottom:1px solid #000;
+    margin-bottom:3px;
+}
+.con02Menu01 h2{
+    margin-bottom:30px;
+}
+
+.Menu02Txt{
+    width:410px;
+    padding-top:120px;
+}
+.Menu02Txt span{
+    line-height:25px
+}
+
+.con02Bg2{
+    background:url(../images/con02Img02.png) no-repeat center left;
+    height:430px;
+    background-size:50%;
+}
+.Menu02Txt02{
+}
+.con02Menu02{
+    text-align: right;
+}
+.con02Menu02 span{
+    margin:0 0 0 auto;
+    display:block;
+    border-bottom:1px solid #000;
+    text-align: right;
+    width:140px;
+
+}
+.con02Menu02 h2{
+    margin-top:3px;
+    margin-bottom:30px;
+}
+
+.Menu02Txt02{
+    padding-top:100px;
+}
+.Menu02Txt02 p{
+    line-height:25px
+}
+
+.con02Bg3{
+    background:url(../images/con02Img03.png) no-repeat center right;
+    height:430px;
+    background-size:50%;
+}
+
+.con02Menu03{
+}
+.con02Menu03 p{
+    width:160px;
+    border-bottom:1px solid #000;
+    margin-bottom:3px;
+}
+.con02Menu03 h2{
+    margin-bottom:30px;
+}
+
+.Menu02Txt03{
+    padding-top:150px;
+    width:380px;
+}
+.Menu02Txt03 span{
+    line-height:25px
+}
+
+/*콘텐츠03*/
+
+.con03{
+    margin-top:100px;
+    text-align:center;
+}
+.con03 h2{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:20px;
+    background:url(../images/con03Mark.png) no-repeat center center;
+    height:132px;
+    line-height:132px;
+}
+.con03 p{
+    line-height:25px;
+}
+
+.con03Logo{
+    margin-top:20px;
+
+}
+
+.con03Logo img{
+    margin-right:10px;
+}
+
+.con03Logo img:last-child{
+    margin-right:0;
+}
+
+/*콘텐츠04*/
+
+.con04{
+    background:url(../images/con04Bg.png) no-repeat bottom center;
+    margin-top:150px;
+    position:relative;
+
+}
+
+.sliderArrow{
+    position:absolute;
+    top:50%;
+    cursor:pointer;
+}
+.sliderArrow img{
+    width:100%;
+}
+.arrowL{
+    left:15px;
+}
+
+.arrowR{
+    right:15px; 
+}
+
+.con04Menu{
+    padding-bottom:150px;
+}
+
+.con04Menu a{
+    
+}
+.con04Menu img{
+}
+
+.con04Menu .slick-slide img{
+    width:100%;
+} 
+
+.con04Menu .slick-slide{
+    margin:0 20px;
+}
+.con04Menu .slick-list{
+       margin:0 40px;
+}
+/*
+.slideBtn{
+    width:30px;
+    height:30px;
+    border-top:2px solid #000;
+    border-right:2px solid #000;
+    text-indent: -9999px;
+    transform:rotate(45deg);
+    position:absolute;
+    z-index:10;
+    top:50%;
+    margin-top:-23px;
+    cursor:pointer;
+}
+
+.slidePrev{
+    transform:rotate(-135deg);
+    left:30px;
+}
+
+.slideNext{
+    right:30px;
+}
+*/
